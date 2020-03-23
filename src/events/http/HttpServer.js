@@ -875,8 +875,9 @@ export default class HttpServer {
       let hapiPath = path.startsWith('/') ? path : `/${path}`
 
       // prepend stage to path
-      hapiPath = `/${this.#options.stage ||
-        this.#serverless.service.provider.stage}${hapiPath}`
+      hapiPath = `/${
+        this.#options.stage || this.#serverless.service.provider.stage
+      }${hapiPath}`
 
       if (hapiPath !== '/' && hapiPath.endsWith('/')) {
         hapiPath = hapiPath.slice(0, -1)

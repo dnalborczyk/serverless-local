@@ -14,7 +14,8 @@
     "prettier": "prettier --check .",
     "test": "npm run build && jest --verbose --silent --runInBand",
     "test:cov": "npm run build && jest --coverage --silent --runInBand --collectCoverageFrom=src/**/*.js",
-    "test:log": "npm run build && jest --verbose"
+    "test:log": "npm run build && jest --verbose",
+    "typecheck": "tsc --noEmit"
   },
   "repository": {
     "type": "git",
@@ -97,7 +98,8 @@
     "p-map": "^4.0.0",
     "prettier": "^2.0.4",
     "rimraf": "^3.0.2",
-    "serverless": "^1.67.3"
+    "serverless": "^1.67.3",
+    "typescript": "^3.8.3"
   },
   "peerDependencies": {
     "serverless": ">=1.60.0"

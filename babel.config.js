@@ -2,6 +2,8 @@
 
 module.exports = {
   plugins: [
+    // NOTE: typescript transform plugin MUST run before other ecmascript transforms!
+    '@babel/plugin-transform-typescript',
     [
       '@babel/plugin-proposal-class-properties',
       {

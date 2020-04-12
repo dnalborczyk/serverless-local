@@ -1,3 +1,4 @@
+import process from 'process'
 import InProcessRunner from '../in-process-runner/index'
 
 // TODO handle this:

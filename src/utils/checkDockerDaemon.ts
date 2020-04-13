@@ -1,6 +1,6 @@
 import execa from 'execa'
 
-export default async function checkDockerDaemon() {
+export default async function checkDockerDaemon(): Promise<void> {
   let dockerServerOS: string
 
   try {

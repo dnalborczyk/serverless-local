@@ -1,0 +1,16 @@
+{
+  "name": "@serverless-local/types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/serverless": "^1.67.0"
+  }
+}

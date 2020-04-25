@@ -1,0 +1,24 @@
+{
+  "name": "@serverless-local/handler-lambda",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test2": "jest --verbose --silent --runInBand",
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@hapi/hapi": "^18.4.1",
+    "@serverless-local/handler-runner-core": "^1.0.0",
+    "@serverless-local/helpers": "^1.0.0",
+    "@serverless-local/logger": "^1.0.0",
+    "@serverless-local/types": "^1.0.0",
+    "@types/hapi__hapi": "^18.2.6",
+    "@types/node": "^13.13.0",
+    "@types/serverless": "^1.67.0"
+  }
+}

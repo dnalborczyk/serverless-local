@@ -1,0 +1,10 @@
+{
+  "name": "@serverless-local/event-http-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {},
+  "keywords": [],
+  "author": "",
+  "license": "MIT"
+}

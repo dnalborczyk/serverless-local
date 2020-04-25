@@ -1,0 +1,16 @@
+{
+  "name": "@serverless-local/handler-runner-in-process",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/node": "^13.13.0"
+  }
+}

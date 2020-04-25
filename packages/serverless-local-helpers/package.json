@@ -1,0 +1,25 @@
+{
+  "name": "@serverless-local/helpers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "test2": "jest --verbose",
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@types/luxon": "^1.22.0",
+    "@types/node": "^13.11.1",
+    "@types/semver": "^7.1.0",
+    "cuid": "^2.1.8",
+    "execa": "^4.0.0",
+    "jsonpath-plus": "^4.0.0",
+    "luxon": "^1.23.0",
+    "object.fromentries": "^2.0.2",
+    "semver": "^7.2.2"
+  }
+}

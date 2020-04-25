@@ -1,0 +1,23 @@
+{
+  "name": "@serverless-local/handler-runner-core",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@serverless-local/handler-runner-child-process": "^1.0.0",
+    "@serverless-local/handler-runner-docker": "^1.0.0",
+    "@serverless-local/handler-runner-in-process": "^1.0.0",
+    "@serverless-local/handler-runner-python": "^1.0.0",
+    "@serverless-local/handler-runner-ruby": "^1.0.0",
+    "@serverless-local/handler-runner-worker-thread": "^1.0.0",
+    "@serverless-local/helpers": "^1.0.0",
+    "@serverless-local/logger": "^1.0.0"
+  }
+}

@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "esModuleInterop": true,
+    "lib": ["ES2020"],
+    "module": "commonjs",
+    "noImplicitAny": false,
+    // "noLib": false,
+    // "removeComments": true,
+    "sourceMap": true,
+    "target": "ES2016"
+  },
+  "exclude": ["node_modules", "**/*.spec.ts", "**/__tests__"]
+}

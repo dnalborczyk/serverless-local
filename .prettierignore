@@ -2,3 +2,4 @@
 .github
 .serverless
 dist
+package-lock.json

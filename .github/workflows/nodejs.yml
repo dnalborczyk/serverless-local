@@ -20,10 +20,12 @@ jobs:
           node-version: ${{ matrix.node-version }}
       - name: install
         run: npm install
+      - name: bootstrap
+        run: npm run bootstrap
+      - name: build
+        run: npm run build
       - name: lint
         run: npm run lint
-      # - name: build
-      #   run: npm run build
       - name: test
         run: npm test
         env:

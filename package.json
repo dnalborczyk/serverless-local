@@ -1,6 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
+    "build": "lerna run build",
     "_build": "rimraf dist && babel src --extensions '.ts' --ignore \"**/__tests__/**/*\" --out-dir dist && copyfiles -u 1 \"src/**/*.{js,vm,py,rb}\" dist",
     "_lint": "eslint .",
     "lint": "eslint **/*.{js,ts}",
@@ -13,7 +14,6 @@
     "test:cov": "npm run build && jest --coverage --silent --runInBand --collectCoverageFrom=src/**/*.js",
     "test:log": "npm run build && jest --verbose",
     "typecheck": "lerna run typecheck",
-    "_typecheck": "tsc --noEmit",
     "clean:all": "lerna exec -- rm -rf ./dist ./node_modules package-lock.json",
     "clean:dist": "lerna exec -- rm -rf ./dist"
   },

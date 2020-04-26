@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
+    "build": "rimraf dist && babel src --extensions .ts --ignore ./src/__tests__ --out-dir dist",
     "test": "jest --verbose",
-    "tsc": "tsc",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],

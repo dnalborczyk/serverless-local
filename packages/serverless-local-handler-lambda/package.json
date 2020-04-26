@@ -4,8 +4,8 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test2": "jest --verbose --silent --runInBand",
-    "tsc": "tsc",
+    "build": "rimraf dist && babel src --extensions .ts --ignore ./src/__tests__ --out-dir dist",
+    "test": "jest --verbose",
     "typecheck": "tsc --noEmit"
   },
   "keywords": [],

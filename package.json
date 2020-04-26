@@ -1,7 +1,7 @@
 {
   "license": "MIT",
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --ci",
     "build": "lerna run build",
     "_build": "rimraf dist && babel src --extensions '.ts' --ignore \"**/__tests__/**/*\" --out-dir dist && copyfiles -u 1 \"src/**/*.{js,vm,py,rb}\" dist",
     "_lint": "eslint .",

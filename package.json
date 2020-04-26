@@ -2,7 +2,8 @@
   "license": "MIT",
   "scripts": {
     "_build": "rimraf dist && babel src --extensions '.ts' --ignore \"**/__tests__/**/*\" --out-dir dist && copyfiles -u 1 \"src/**/*.{js,vm,py,rb}\" dist",
-    "lint": "eslint .",
+    "_lint": "eslint .",
+    "lint": "eslint **/*.{js,ts}",
     "_prepare": "npm run build",
     "prepublishOnly": "npm run lint && npm run build && npm test",
     "prettier": "prettier --check .",
@@ -35,6 +36,7 @@
     "eslint": "^6.8.0",
     "eslint-config-airbnb-base": "^14.1.0",
     "eslint-config-prettier": "^6.11.0",
+    "eslint-import-resolver-typescript": "^2.0.0",
     "eslint-plugin-import": "^2.20.2",
     "eslint-plugin-prettier": "^3.1.3",
     "husky": "^4.2.5",

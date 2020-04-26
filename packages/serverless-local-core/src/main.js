@@ -1,14 +1,14 @@
-'use strict'
+'use strict' // eslint-disable-line
 
 // UNCOMMENT FOR DEVELOPMENT:
 //
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const { resolve } = require('path')
 
-// eslint-disable-next-line import/no-extraneous-dependencies
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 require('@babel/register')({
   configFile: resolve(__dirname, '../babel.config.js'),
   ignore: [/node_modules/],
 })
 
-// eslint-disable-next-line import/no-unresolved
 module.exports = require('./index').default

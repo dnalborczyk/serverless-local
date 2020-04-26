@@ -1,4 +1,4 @@
-'use strict'
+'use strict' // eslint-disable-line
 
 const { AWS_ENDPOINT } = process.env
 

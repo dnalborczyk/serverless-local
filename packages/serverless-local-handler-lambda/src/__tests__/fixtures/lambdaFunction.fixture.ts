@@ -1,5 +1,3 @@
-'use strict'
-
 exports.contextDoneHandler = function contextDoneHandler(event, context) {
   context.done(null, 'foo')
 }

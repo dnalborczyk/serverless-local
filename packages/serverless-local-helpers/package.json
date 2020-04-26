@@ -4,7 +4,7 @@
   "description": "",
   "main": "dist/index.js",
   "scripts": {
-    "test2": "jest --verbose",
+    "test": "jest --verbose",
     "tsc": "tsc",
     "typecheck": "tsc --noEmit"
   },
